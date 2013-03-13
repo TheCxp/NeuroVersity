@@ -1,0 +1,16 @@
+<script type="text/javascript">
+  window.onload = function() { init() };
+
+  var public_spreadsheet_url = 'https://docs.google.com/spreadsheet/pub?hl=en_US&hl=en_US&key=0AmYzu_s7QHsmdDNZUzRlYldnWTZCLXdrMXlYQzVxSFE&output=html';
+
+  function init() {
+    Tabletop.init( { key: https://docs.google.com/spreadsheet/pub?key=0Auz7HekaDxfydGt4VnpnMzhFcHpQVVdKYzdYRndueWc&output=html,
+                     callback: showInfo,
+                     simpleSheet: true } )
+  }
+
+  function showInfo(data, tabletop) {
+    alert("Successfully processed!")
+    console.log(data);
+  }
+</script>
